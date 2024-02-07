@@ -3,7 +3,6 @@
   <id>com.exok.Celeste64</id>
   <metadata_license>CC0-1.0</metadata_license>
   <developer_name>Maddy Makes Games Inc., Extremely OK Games, Ltd.</developer_name>
-  <project_group>Maddy Makes Games Inc., Extremely OK Games, Ltd.</project_group>
   <project_license>MIT</project_license>
   <name>Celeste 64</name>
   <summary>Celeste 64: Fragments of the Mountain</summary>
@@ -21,19 +20,13 @@
 
   <screenshots>
     <screenshot type="default">
-      <!-- TODO: change URL to new Flathub repo once submission is approved -->
-      <image type="source">https://raw.githubusercontent.com/brunofin/celeste64-flatpak/main/screenshots/1.png</image>
-      <!-- <image type="source">https://raw.githubusercontent.com/flathub/com.exok.Celeste64/master/screenshots/1.png</image> -->
+      <image type="source">https://raw.githubusercontent.com/flathub/com.exok.Celeste64/master/screenshots/1.png</image>
     </screenshot>
     <screenshot >
-      <!-- TODO: change URL to new Flathub repo once submission is approved -->
-      <image type="source">https://raw.githubusercontent.com/brunofin/celeste64-flatpak/main/screenshots/2.png</image>
-      <!-- <image type="source">https://raw.githubusercontent.com/flathub/com.exok.Celeste64/master/screenshots/2.png</image> -->
+      <image type="source">https://raw.githubusercontent.com/flathub/com.exok.Celeste64/master/screenshots/2.png</image>
     </screenshot>
     <screenshot >
-      <!-- TODO: change URL to new Flathub repo once submission is approved -->
-      <image type="source">https://raw.githubusercontent.com/brunofin/celeste64-flatpak/main/screenshots/3.png</image>
-      <!-- <image type="source">https://raw.githubusercontent.com/flathub/com.exok.Celeste64/master/screenshots/3.png</image> -->
+      <image type="source">https://raw.githubusercontent.com/flathub/com.exok.Celeste64/master/screenshots/3.png</image>
     </screenshot>
   </screenshots>
 
@@ -52,6 +45,31 @@
 
   <!-- Contents are from https://maddymakesgamesinc.itch.io/celeste64 -->
   <releases>
+  <release version="1.1.1" date="2024-02-06">
+      <description>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Fixed falling blocks disabling themselves before they necessarily made it to the deathplane</li>
+          <li>Fixed movement code to use target camera position instead of lerping camera position, which should remove slight drift to input as the camera settles.</li>
+          <li>Lots of other various small technical, performance, and stability fixes</li>
+        </ul>
+        <p>Changes / Improvements:</p>
+        <ul>
+          <li>Nintendo Switch controllers now have A for confirm and B for cancel, and display appropriate prompts</li>
+          <li>Settings Options got moved to a Sub Menu</li>
+          <li>Added option to invert Camera controls</li>
+          <li>Added a controls.json, located beside your save.json after you play the game at least once. You can modify this file to adjust controls (but note that in-game prompts do not yet show changes). You must restart the game to have the changes loaded. Your controls/save data is in ./local/share/Celeste64 on Linux and AppData/Roaming/Celeste64 on Windows</li>
+          <li>Stop wall climb hop onto spikes, or wall-climb rotate onto spikes, to behave like original Celeste. This does not stop you from climbing into spikes on the same surface as you.</li>
+          <li>Added prompts for default Keyboard inputs on the Menus</li>
+          <li>Timer should always show milliseconds to 3 places instead of 2 (ex. 89 milliseconds should now display as 089)</li>
+          <li>Shows Strawberry counter for longer after collecting one</li>
+          <li>Make default window size 720p to avoid the window being too big on 1080p displays</li>
+          <li>Shows version number on Overworld, while Paused, and while in the Ending Area</li>
+          <li>Allow dashing from climb</li>
+          <li>reverted forward movement code to use the true camera position again.</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1" date="2024-01-30">
       <description>
         <ul>
