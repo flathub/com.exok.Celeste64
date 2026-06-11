@@ -2,7 +2,9 @@
 <component type="desktop-application">
   <id>com.exok.Celeste64</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <developer_name>Maddy Makes Games Inc., Extremely OK Games, Ltd.</developer_name>
+  <developer id="com.exok">
+    <name>Maddy Makes Games Inc., Extremely OK Games, Ltd.</name>
+  </developer>
   <project_license>MIT</project_license>
   <name>Celeste 64</name>
   <summary>Celeste 64: Fragments of the Mountain</summary>
@@ -10,9 +12,11 @@
   <url type="homepage">https://exok.com/</url>
   <url type="help">https://github.com/ExOK/Celeste64</url>
   <url type="bugtracker">https://github.com/ExOK/Celeste64/issues</url>
+  <url type="vcs-browser">https://github.com/ExOK/Celeste64</url>
 
   <description>
-    <p>Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer. Created in a week(ish) by the Celeste team to celebrate the game’s sixth anniversary 🍓✨</p>
+    <p>Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer.
+      Created in a week(ish) by the Celeste team to celebrate the game’s sixth anniversary 🍓✨</p>
     <p>Controller recommended 🎮</p>
   </description>
 
@@ -30,15 +34,11 @@
     </screenshot>
   </screenshots>
 
-  <categories>
-    <category>Game</category>
-  </categories>
-  
   <content_rating type="oars-1.1" />
 
   <supports>
     <control>keyboard</control>
-    <control>controller</control>
+    <control>gamepad</control>
   </supports>
 
   <update_contact>bruno.k.finger_at_gmail.com</update_contact>
@@ -50,7 +50,8 @@
         <p>Bug Fixes:</p>
         <ul>
           <li>Fixed falling blocks disabling themselves before they necessarily made it to the deathplane</li>
-          <li>Fixed movement code to use target camera position instead of lerping camera position, which should remove slight drift to input as the camera settles.</li>
+          <li>Fixed movement code to use target camera position instead of lerping camera position, which should
+            remove slight drift to input as the camera settles.</li>
           <li>Lots of other various small technical, performance, and stability fixes</li>
         </ul>
         <p>Changes / Improvements:</p>
@@ -58,8 +59,12 @@
           <li>Nintendo Switch controllers now have A for confirm and B for cancel, and display appropriate prompts</li>
           <li>Settings Options got moved to a Sub Menu</li>
           <li>Added option to invert Camera controls</li>
-          <li>Added a controls.json, located beside your save.json after you play the game at least once. You can modify this file to adjust controls (but note that in-game prompts do not yet show changes). You must restart the game to have the changes loaded. Your controls/save data is in ./local/share/Celeste64 on Linux and AppData/Roaming/Celeste64 on Windows</li>
-          <li>Stop wall climb hop onto spikes, or wall-climb rotate onto spikes, to behave like original Celeste. This does not stop you from climbing into spikes on the same surface as you.</li>
+          <li>Added a controls.json, located beside your save.json after you play the game at least once.
+            You can modify this file to adjust controls (but note that in-game prompts do not yet show changes).
+            You must restart the game to have the changes loaded. Your controls/save data is in ./local/share/Celeste64
+            on Linux and AppData/Roaming/Celeste64 on Windows</li>
+          <li>Stop wall climb hop onto spikes, or wall-climb rotate onto spikes, to behave like original Celeste.
+            This does not stop you from climbing into spikes on the same surface as you.</li>
           <li>Added prompts for default Keyboard inputs on the Menus</li>
           <li>Timer should always show milliseconds to 3 places instead of 2 (ex. 89 milliseconds should now display as 089)</li>
           <li>Shows Strawberry counter for longer after collecting one</li>
