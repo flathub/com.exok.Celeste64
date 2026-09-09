@@ -1,23 +1,23 @@
 [
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/8.0.26/microsoft.netcore.app.ref.8.0.26.nupkg",
-        "sha512": "34285c889bb1e1f4727bc084436e1d6598a2bf8555a10655b68fcdb3ee530cfd95983005a7b5318e0890e1e5e7b444b1e1d8331c04adcae0a6d2d087fdf4379e",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/8.0.30/microsoft.netcore.app.ref.8.0.30.nupkg",
+        "sha512": "1d47290eac983bd768a3399e0c40c3a3ae731e36aafb72a3a525450a907901970b5e834304e1e0c285f8b2f2178e8ee3b186ae19a004adcc4c6dafff013f4034",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.ref.8.0.26.nupkg"
+        "dest-filename": "Microsoft.NETCore.App.Ref.8.0.30.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/8.0.26/microsoft.aspnetcore.app.ref.8.0.26.nupkg",
-        "sha512": "a997742a9a82b867c8a725e542ce892e6ccbda84475498202403d2ace43c0c998ea7c837c84532693a142be7421b0edcc4e03a89256551c8eae77b1c285ef74a",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/8.0.30/microsoft.aspnetcore.app.ref.8.0.30.nupkg",
+        "sha512": "9aefbd78f497963c62baf9dde90dc40af4348ebc4c574205b5ec47bdacab840b79147f0318069bd21c18c951593704fd7890153f949dcbe7df16f0d8065ef72b",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.aspnetcore.app.ref.8.0.26.nupkg"
+        "dest-filename": "Microsoft.AspNetCore.App.Ref.8.0.30.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.host.linux-x64/8.0.26/microsoft.netcore.app.host.linux-x64.8.0.26.nupkg",
-        "sha512": "961ac9f540e8bb12b4009cda459fdd59559ea51718e2071fa29f9ede837d8e295bb68ec682170cd0eed2115644fc4c4396f0ace5328e96d94473e79cf63f0ee9",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.host.linux-x64/8.0.30/microsoft.netcore.app.host.linux-x64.8.0.30.nupkg",
+        "sha512": "d3cb93dfbee7fc21ba92dfa6a481bda43b0fe30c162bfb156e1d40a92fa26f9f1505406dd40f8d05af7c772ed4c7f0b21f968f00e516cb7a96e0c297e4acf0a7",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.host.linux-x64.8.0.26.nupkg"
+        "dest-filename": "Microsoft.NETCore.App.Host.linux-x64.8.0.30.nupkg"
     }
 ]
